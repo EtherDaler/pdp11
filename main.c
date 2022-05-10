@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
+#include "src/init/pdp11.h"
+#include "src/init/globals.h"
+#include "src/fun/pdp11_funcs.h"
 
-int main(){
-    char *hello;
-    hello = (char*)malloc(15 * sizeof(char));
-    hello = "Hello World";
-    printf("%s", hello);
+
+int main(int argc, char *argv[])
+{
     return 0;
 }
